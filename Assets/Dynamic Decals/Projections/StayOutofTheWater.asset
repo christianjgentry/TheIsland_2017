@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5f969f960bef8449fee2204a37e5a3, type: 3}
+  m_Name: StayOutofTheWater
+  m_EditorClassIdentifier: 
+  type: 0
+  instanced: 1
+  forceForward: 0
+  priority: 12
+  transparencyType: 0
+  cutoff: 0.319
+  tiling: {x: 0, y: 0}
+  offset: {x: 0, y: 0}
+  maskMethod: 0
+  masks: 00000000
+  projectionLimit: 180
+  _Cutoff: 5
+  _TilingOffset: 284
+  _MaskBase: 285
+  _MaskLayers: 286
+  albedo:
+    texture: {fileID: 2800000, guid: e5d6fa28c72e4004492264f4ddf22486, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    _MainTex: 1
+    _Color: 10
+  metallic:
+    texture: {fileID: 0}
+    metallicity: 0.98
+    glossiness: 0.146
+    _MetallicGlossMap: 245
+    _Metallic: 244
+    _Glossiness: 241
+  normal:
+    texture: {fileID: 2800000, guid: b66c2383353dc7d46a137424b18f24ee, type: 3}
+    strength: 0
+    _BumpMap: 6
+    _BumpScale: 251
+  emissive:
+    texture: {fileID: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    intensity: 1
+    _EmissionMap: 265
+    _EmissionColor: 81
